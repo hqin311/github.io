@@ -11,88 +11,107 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
+            background-color: #f5f5f5;
         }
         .support-section {
-            background: #f8f9fa;
-            border-radius: 8px;
-            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
             margin: 20px 0;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        .contact-form {
-            margin: 20px 0;
-        }
         .form-group {
-            margin-bottom: 15px;
+            margin-bottom: 20px;
         }
         label {
             display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #333;
         }
         input, textarea {
             width: 100%;
-            padding: 8px;
+            padding: 12px;
             border: 1px solid #ddd;
-            border-radius: 4px;
+            border-radius: 8px;
             box-sizing: border-box;
+            font-size: 16px;
+        }
+        small {
+            display: block;
+            margin-top: 5px;
+            color: #666;
+            font-size: 14px;
         }
         button {
-            background: #007AFF;
+            background: #d73a49;
             color: white;
-            padding: 10px 20px;
+            padding: 12px 24px;
             border: none;
             border-radius: 6px;
             cursor: pointer;
+            font-size: 16px;
         }
         button:hover {
-            background: #0056b3;
+            background: #cb2431;
+        }
+        h1, h2 {
+            color: #24292e;
         }
     </style>
 </head>
 <body>
-    <h1>Shanghai 3D Memories 1990s Support</h1>
+    <div class="support-section">
+        <h1>Contact Support</h1>
+        <p>Need help with Shanghai Spatial Memories? We're here to assist you.</p>
 
 
-<div class="support-section">
-    <h2>Ask a Question</h2>
-    <!-- Replace YOUR_FORMSPREE_ID with the actual ID from your Formspree account -->
-    <form class="contact-form" action="https://formspree.io/f/mlddnkdz" method="POST">
+    <form class="contact-form" action="https://formspree.io/f/[YOUR-FORMSPREE-ID]" method="POST">
         <div class="form-group">
-            <label for="name">Name:</label>
+            <label for="name">Your Name</label>
             <input type="text" id="name" name="name" required>
         </div>
         
         <div class="form-group">
-            <label for="email">Email:</label>
+            <label for="email">Email</label>
             <input type="email" id="email" name="email" required>
-        </div>
-
-        <div class="form-group">
-            <label for="device">Device:</label>
-            <select id="device" name="device" required>
-                <option value="">Select your device</option>
-                <option value="iPhone">iPhone</option>
-                <option value="iPad">iPad</option>
-                <option value="Vision Pro">Vision Pro</option>
-            </select>
+            <small>This will help me respond to your query via an email.</small>
         </div>
         
         <div class="form-group">
-            <label for="message">Your Question:</label>
+            <label for="message">Message</label>
             <textarea id="message" name="message" rows="5" required></textarea>
+            <small>What would you like to discuss?</small>
         </div>
         
-        <button type="submit">Send Question</button>
+        <button type="submit">Submit</button>
     </form>
 </div>
 
 <div class="support-section">
-    <h2>FAQ</h2>
-    <!-- Your existing FAQ content -->
+    <h2>Frequently Asked Questions</h2>
+    
+    <h3>How do I use the app?</h3>
+    <p>Shanghai Spatial Memories allows you to explore memories of Shanghai decades ago. Navigate through the app to discover locations and street scenes about the city's 10 old city districts.</p>
+
+    <h3>What camera did you use to take the photographs and what film did you use?</h3>
+    <p>All the photographs in this app were taken with RBT stereoscopic camera (made in Germany). The film used was Kodak slide film.</p>
+
+    <h3>How do I navigate through different districts?</h3>
+    <p>- Browse through the main menu to select different districts<br>
+    - Tap on any photograph to view it in detail<br>
+    - Swipe left or right to move between images<br>
+    - Use the district filter to focus on specific areas</p>
+
+    <h3>For Vision Pro Users:</h3>
+    <p>- Look at a photograph and pinch your thumb and index finger together to select it<br>
+    - Use your hands to "grab and drag" through the collection<br>
+    - To zoom, hold the pinch gesture and move your hand closer or further</p>
 </div>
 
-<!-- Rest of your existing content -->
+<footer class="support-section" style="text-align: center;">
+    Â© 2024 Shanghai Spatial Memories. All rights reserved.
+</footer>
 
 
 </body>
