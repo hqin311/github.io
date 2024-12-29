@@ -18,7 +18,7 @@ What camera did you use to take the photographs and what film did you use?
 All the photographs in this app were taken with RBT stereoscopic camera (made in Germany). The film used was Kodak slide film.
 
 How do I use the app?
-Shanghai Spatial Memories allows you to explore memories of Shanghai decades ago. Navigate through the app to discover locations and street scenes about the city's 10 old city districts.
+Shanghai 3D  Memories 1990s allows you to explore memories of Shanghai decades ago. Navigate through the app to discover locations and street scenes about the city's 10 old city districts.
 
 How do I navigate through different districts?
 - Browse through the main menu to select different districts
