@@ -7,7 +7,7 @@ Contact Support
 We're here to help you explore memories of Shanghai. Our support team typically responds within 24 hours.
 
 For support inquiries, questions, or feedback about Shanghai 3D Memories 1990s, please contact us at:
-shanghaispatialmemories@gmail.com
+https://sites.google.com/view/contact-shanghai-3d-memories
 
 
 Please notice that currently thia app is only for use on Apple Vision Pro.
