@@ -39,4 +39,4 @@ App Features
 - Intuitive navigation and viewing interface
 
 
-2024 Shanghai Spatial Memories. All rights reserved.
+2024 Shanghai 3D Memories 1990s. All rights reserved.
